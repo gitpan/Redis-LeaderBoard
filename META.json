@@ -4,8 +4,10 @@
       "Masayuki Matsuki <y.songmu@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.4.4",
-   "license" : "perl_5",
+   "generated_by" : "Minilla/v0.11.0",
+   "license" : [
+      "perl_5"
+   ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
@@ -19,7 +21,8 @@
          "share",
          "eg",
          "examples",
-         "author"
+         "author",
+         "builder"
       ]
    },
    "prereqs" : {
@@ -56,7 +59,7 @@
    "provides" : {
       "Redis::LeaderBoard" : {
          "file" : "lib/Redis/LeaderBoard.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Redis::LeaderBoard::Member" : {
          "file" : "lib/Redis/LeaderBoard/Member.pm"
@@ -73,5 +76,5 @@
          "web" : "https://github.com/Songmu/p5-Redis-LeaderBoard"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

@@ -11,7 +11,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.4.4, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Minilla/v0.11.0, CPAN::Meta::Converter version 2.132510'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -26,13 +26,13 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   Redis::LeaderBoard:
     file: lib/Redis/LeaderBoard.pm
-    version: 0.01
+    version: 0.02
   Redis::LeaderBoard::Member:
     file: lib/Redis/LeaderBoard/Member.pm
-    version: 0
 requires:
   Mouse: 0
   Redis: 0
@@ -41,4 +41,4 @@ resources:
   bugtracker: https://github.com/Songmu/p5-Redis-LeaderBoard/issues
   homepage: https://github.com/Songmu/p5-Redis-LeaderBoard
   repository: git://github.com/Songmu/p5-Redis-LeaderBoard.git
-version: 0.01
+version: 0.02
