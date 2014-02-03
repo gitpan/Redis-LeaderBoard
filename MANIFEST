@@ -9,6 +9,7 @@ lib/Redis/LeaderBoard/Member.pm
 t/00_compile.t
 t/01_member_rank.t
 t/02_member.t
-t/09_hiredis.t
+t/03_expired_at.t
+t/09_redis_fast.t
 META.yml
 MANIFEST

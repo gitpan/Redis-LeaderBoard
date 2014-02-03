@@ -30,9 +30,11 @@ no_index:
 provides:
   Redis::LeaderBoard:
     file: lib/Redis/LeaderBoard.pm
-    version: 0.02
+    version: 0.03
   Redis::LeaderBoard::Member:
     file: lib/Redis/LeaderBoard/Member.pm
+recommends:
+  Redis::Fast: 0
 requires:
   Mouse: 0
   Redis: 0
@@ -41,4 +43,4 @@ resources:
   bugtracker: https://github.com/Songmu/p5-Redis-LeaderBoard/issues
   homepage: https://github.com/Songmu/p5-Redis-LeaderBoard
   repository: git://github.com/Songmu/p5-Redis-LeaderBoard.git
-version: 0.02
+version: 0.03
